@@ -1,0 +1,185 @@
+/* Sets up the bar at the top of my website that contains my links. */
+.navbar {
+    background: #344e41;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Styles my link blocks. */
+.navbar li {
+    background: #344e41;
+    width: 22%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Chages link block color on hover. */
+.navbar li:hover {
+    background: #588157;
+}
+
+/* Changes link block color on active. */
+.navbar li:active {
+    background: #a3b18a
+}
+
+/* Styles link text. */
+.navbar li a {
+    color: #f6f5f3;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Changes link text color on active so that the text isnt 
+too light when the block background color gets lighter. */
+.navbar li a:active {
+    color: #344e41
+}
+
+/* Styles of the body. */
+body {
+    background: #f6f5f3;
+    color: #344e41;
+    margin: 0; /* Gets rid of the margin that was around the navigation bar. */
+    font-family: Tahoma, sans-serif;
+}
+
+/*styles my contact pages main elements. */
+.contact {
+    text-align: center;
+}
+
+/* Styles contact heading. */
+.contact h1 {
+    text-align: center;
+}
+
+/* Styles contact methods. */
+.contact h2 {
+    font-weight: normal; /* Takes away the default bold in h2. */
+}
+
+/* Creates space at the bottom of the class. */
+.edu {
+    margin-bottom: 40px;
+}
+/* Styles heading block and text. */
+.edu h1 {
+    background: #344e41;
+    color: #f6f5f3;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Adds padding. */
+.edu h2 {
+    padding-left: 40px;
+    margin: 0px;
+}
+
+/* Adds padding and takes away bold text. */
+.edu h3 {
+    padding-left: 50px;
+    font-weight: normal;
+}
+
+/* Styles heading block and text. */
+.pro h1 {
+    background: #344e41;
+    color: #f6f5f3;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Adds space. */
+.pro h2 {
+    padding-left: 40px;
+    margin: 0px;
+}
+
+/* Fixes spacing. */
+.pro p {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+/* Styles heading block and text. */
+.lead h1 {
+    background: #344e41;
+    color: #f6f5f3;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Adds space. */
+.lead h2 {
+    padding-left: 40px;
+    margin: 0px;
+}
+
+/* Fixes spacing. */
+.lead p {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+/* Styles home page container. */
+.welcome {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Adds some space around the heading. */
+.welcome h1 {
+    margin: 10px;
+}
+
+/* id that takes away the bolding on one of my h1 elements on the homepage. */
+#weight {
+    font-weight: normal;
+}
+
+/* Puts image on the left and manages the size so I dont take over. */
+img {
+    float: left;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Underlines "About Me". */
+.welcome h2 {
+    text-decoration: underline;
+}
+
+/* Styles the bar for the footer. */
+footer {
+    background: #344e41;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+    margin: 0;
+    clear: left;
+}
+
+/* Styles the text in the footer. */
+footer p {
+    color: #f6f5f3;
+    padding: 10px;
+}
