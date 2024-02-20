@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+body {
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+h1 {
+    color: green;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+.container {
+    border: 2px dotted black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    align-items: center;
+    /* align-items: start; */
+    /* align-items: end; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.box {
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+.container-2 {
+    border: 2px dotted black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* align-items: center; */
+    align-items: start;
+    /* align-items: end; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.box-n {
+    border: 2px solid blue;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+}
+
+.box-1n {
+    border: 2px solid green;
+    height: 100%;
+    width: 45%;
+}
+
+.box-2n {
+    border: 2px solid green;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
